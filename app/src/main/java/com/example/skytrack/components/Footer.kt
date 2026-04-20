@@ -14,30 +14,33 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+
+private val IconColor = Color(0xFF4694F8)
 
 @Preview(showBackground = true)
 @Composable
 fun Footer(){
     Row(modifier = Modifier.fillMaxWidth().padding(bottom = 5.dp), horizontalArrangement = Arrangement.SpaceBetween) {
         TextButton(onClick = {}) {
-            Icon(imageVector = Icons.Default.Home, contentDescription = "Home")
+            Icon(imageVector = Icons.Default.Home, contentDescription = "Home", tint = IconColor)
         }
         TextButton(onClick = {}) {
-            Icon(imageVector = Icons.Default.Search, contentDescription = "Search")
+            Icon(imageVector = Icons.Default.Search, contentDescription = "Search", tint = IconColor)
         }
         TextButton(onClick = {}) {
-            Icon(imageVector = Icons.Default.Home, contentDescription = "Hours")
+            Icon(imageVector = Icons.Default.Home, contentDescription = "Hours", tint = IconColor)
         }
         TextButton(onClick = {}) {
-            Icon(imageVector = Icons.Default.DateRange, contentDescription = "Week")
+            Icon(imageVector = Icons.Default.DateRange, contentDescription = "Week", tint = IconColor)
         }
         TextButton(onClick = {}) {
-            Icon(imageVector = Icons.Default.FavoriteBorder, contentDescription = "Favorites")
+            Icon(imageVector = Icons.Default.FavoriteBorder, contentDescription = "Favorites", tint = IconColor)
         }
         TextButton(onClick = {}) {
-            Icon(imageVector = Icons.Default.Settings, contentDescription = "Settings")
+            Icon(imageVector = Icons.Default.Settings, contentDescription = "Settings", tint = IconColor)
         }
     }
 }

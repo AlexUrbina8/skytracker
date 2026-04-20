@@ -12,6 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.skytrack.pages.HomePage
+import com.example.skytrack.pages.SearchPage
+import com.example.skytrack.pages.WeekPage
 import com.example.skytrack.ui.theme.SkytrackTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,7 +22,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             SkytrackTheme {
-                HomePage()
+                WeekPage()
             }
         }
     }
