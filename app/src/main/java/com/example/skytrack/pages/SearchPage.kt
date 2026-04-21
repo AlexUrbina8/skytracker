@@ -37,7 +37,6 @@ fun SearchPage(){
         SearchWeatherWidget()
         SearchWeatherWidget()
         SearchWeatherWidget()
-
         Spacer(modifier = Modifier.weight(1f))
         Footer()
     }

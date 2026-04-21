@@ -23,7 +23,7 @@ private val IconColor = Color(0xFF4694F8)
 @Preview(showBackground = true)
 @Composable
 fun Footer(){
-    Row(modifier = Modifier.fillMaxWidth().padding(bottom = 5.dp), horizontalArrangement = Arrangement.SpaceBetween) {
+    Row(modifier = Modifier.fillMaxWidth().padding(bottom = 15.dp), horizontalArrangement = Arrangement.SpaceBetween) {
         TextButton(onClick = {}) {
             Icon(imageVector = Icons.Default.Home, contentDescription = "Home", tint = IconColor)
         }
