@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "812123502285",
+    "project_id": "skytracker-a40bb",
+    "storage_bucket": "skytracker-a40bb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812123502285:android:abc6c4e99823ae270bdb84",
+        "android_client_info": {
+          "package_name": "com.example.skytracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADDthAjhfm_sH05KeFIMY_F4_15uAOv_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

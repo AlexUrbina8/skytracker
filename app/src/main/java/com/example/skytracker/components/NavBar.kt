@@ -1,6 +1,6 @@
 package com.example.skytracker.components
 
-import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.CalendarMonth
@@ -72,7 +72,7 @@ fun NavBar(
     )
 
     NavigationBar(
-        modifier = Modifier.height(72.dp),
+        modifier = Modifier.padding(vertical = 8.dp, horizontal = 4.dp),
         containerColor = colors.background
     ) {
         items.forEach { item ->
